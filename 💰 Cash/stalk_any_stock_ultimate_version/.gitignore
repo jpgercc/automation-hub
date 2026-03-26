@@ -1,0 +1,29 @@
+# Logs e dados gerados em tempo de execução
+alert_log.json
+log-cashflow.json
+log-cashflow.txt
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+
+# Cache/artefatos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.coverage
+.coverage*
+htmlcov/
+
+# Configurações locais
+*.env
+.env*
+
+# Sistema/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
